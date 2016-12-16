@@ -6,6 +6,7 @@ import java.awt.Graphics2D;
 
 /*
  *Klass mapi ehk telliste hunniku moodustamiseks.
+ * abi: https://www.youtube.com/watch?v=K9qMm3JbOH0
  */
 
 public class Map {
