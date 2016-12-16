@@ -19,6 +19,7 @@ import javax.swing.Timer;
 /**
  * Sätestab elemendid, joonistab pildid/ graafika, sätestab tegevused
  * klahvide vajutamisel ning loogika mängu toimimiseks.
+ * abi: https://www.youtube.com/watch?v=K9qMm3JbOH0
  */
 
 public class M2ng extends JPanel implements KeyListener, ActionListener {
@@ -126,7 +127,8 @@ public class M2ng extends JPanel implements KeyListener, ActionListener {
 		g.dispose();
 
 	}
-
+	
+	//https://www.youtube.com/watch?v=K9qMm3JbOH0
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		timer.start();
