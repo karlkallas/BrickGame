@@ -5,7 +5,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 /*
- *Klass mapi ehk telliste genereerimiseks.
+ *Klass mapi ehk telliste hunniku moodustamiseks.
  */
 
 public class Map {
@@ -13,7 +13,6 @@ public class Map {
 	public int brickWidth;
 	public int brickHeight;
 	
-	//On oluline, et konkreetne tellis ei oleks palliga põrkunud
 	public Map(int row, int col) {
 		map = new int [row][col];
 		for(int i = 0; i < map.length; i++) {

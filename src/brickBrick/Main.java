@@ -3,7 +3,7 @@ package brickBrick;
 import javax.swing.JFrame;
 
 /**
- * Programm kujutab endast lihtsat ja kaasahaaravat mängu, kus peab palliga katki laskma tellised.
+ * Programm kujutab endast lihtsat ja kaasahaaravat mängu, kus peab palliga põrgates katki laskma tellised.
  * 
  * @author Karl Kallas
  * @version 1.0 2 Dec 2016

@@ -41,16 +41,16 @@ public class M2ng extends JPanel implements KeyListener, ActionListener {
 	private int h = 592;
 	private int w = 692;
 	
-	private static Image[] pall = new Image[100];
-	private static Image[] laud = new Image[100];
+	private static Image[] ball = new Image[100];
+	private static Image[] board = new Image[100];
 	
 	
 	private Map map;
 	
 	public M2ng() {
 		map = new Map (5,11);
-		pall[0] = new ImageIcon("img/pall.png").getImage();
-		laud[0] = new ImageIcon("img/laud.png").getImage();
+		ball[0] = new ImageIcon("img/pall.png").getImage();
+		board[0] = new ImageIcon("img/laud.png").getImage();
 		addKeyListener(this);
 		setFocusable(true);
 		setFocusTraversalKeysEnabled(false);
@@ -89,10 +89,10 @@ public class M2ng extends JPanel implements KeyListener, ActionListener {
 		g.drawString("" + points, 590, 30);
 
 		//Põrkelaud
-		g.drawImage(laud[0],boardX, 550, boardLength, 8, null);
+		g.drawImage(board[0],boardX, 550, boardLength, 8, null);
 		
 		// Pall
-		g.drawImage(pall[0],ballposX, ballposY, 20, 20, null);
+		g.drawImage(ball[0],ballposX, ballposY, 20, 20, null);
 		
 		//Kiri õidu korral
 		if(totalBricks <= 0) {
